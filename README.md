@@ -1,16 +1,55 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+========================= APPLICATION DE GESTION DE TRANSPORT ==========================
 
-Currently, two official plugins are available:
+📦 Fonctionnalités
+🔐 Authentification JWT avec tokens sécurisés & Affichage des messages d'erreur et de succès claires et compactes.
+🔄 Système de Refresh Token pour une sécurité renforcée
+🛡️ Spring Security 6 avec configuration avancée implementée au backend avec des filtres et controles d'accès.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏗️ Architecture modulaire et maintenable
+🛠️ Stack Technique
+Backend: Spring Boot 3.x
+front-end: react.js & vite + tailwindcss
+Sécurité: Spring Security 6 + JWT
+Base de données: MySQL 8+
+fichier de script : package.json
+Java: Version 17+
+Gestion des dépendances: Spring Boot Starter
+📋 Prérequis
+Avant de commencer, assurez-vous d'avoir installé :
 
-## React Compiler
+☕ Java 17 ou supérieur
+🗄️ MySQL 8.0 ou supérieur
+🛠️ Maven 3.6 ou supérieur
+📧 Git pour cloner le projet
+🚀 Installation & Démarrage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Installation & Démarrage
 
-## Expanding the ESLint configuration
+1. Cloner le projet
+   git clone https://github.com/adammoukit/nagode-API.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-- Se connecter à MySQL et exécuter :
+CREATE DATABASE nagodeDB;
+-- Ou utilisez votre outil de gestion MySQL préféré (phpMyAdmin, MySQL Workbench, etc.)
+
+# Copier le template de configuration locale
+
+cp src/main/resources/application-local.properties.template src/main/resources/application-local.properties
+
+# Éditer le fichier avec vos paramètres
+
+# Utilisez votre éditeur favori :
+
+nano src/main/resources/application-local.properties
+
+# ou
+
+code src/main/resources/application-local.properties # VS Code
+
+# ou ouvrez avec IntelliJ/Eclipse
+
+### ensuite vou allez cloner le frontend
+
+git clone https://github.com/adammoukit/nagode-transportapp-client.git
