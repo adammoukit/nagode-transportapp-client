@@ -59,11 +59,15 @@ git clone https://github.com/adammoukit/nagode-API.git
 
 ###2️⃣ Créer la base de données MySQL
 
+```bash
 - CREATE DATABASE nagodeDB;
+```
 
 ### 3 Cloner le frontend
 
+```bash
 --- git clone https://github.com/adammoukit/nagode-transportapp-client.git
+```
 
 ### ⚙️ Lancement du projet
 
