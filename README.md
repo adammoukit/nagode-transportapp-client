@@ -60,37 +60,40 @@ git clone https://github.com/adammoukit/nagode-API.git
 ###2️⃣ Créer la base de données MySQL
 
 ```bash
-- CREATE DATABASE nagodeDB;
+   CREATE DATABASE nagodeDB;
 ```
 
 ### 3 Cloner le frontend
 
 ```bash
---- git clone https://github.com/adammoukit/nagode-transportapp-client.git
+   git clone https://github.com/adammoukit/nagode-transportapp-client.git
 ```
 
 ### ⚙️ Lancement du projet
 
-▶️ Démarrer le backend : mvn spring-boot:run
+▶️ Démarrer le backend :
+
+```bash
+  mvn spring-boot:run
+```
 
 💻 Démarrer le frontend :
 
-- npm install
-- npm run dev
+```bash
+  npm install
+  npm run dev
+```
 
 🧠 Aperçu du Projet
 
 Cette application permet de :
 
-Gérer les trajets, villes, et chauffeurs
+- Gérer les trajets, villes, et chauffeurs
+- Sécuriser l’accès via JWT
+- Visualiser et manipuler les données via une interface React moderne
+- Maintenir une structure claire côté backend et frontend
 
-Sécuriser l’accès via JWT
+## 👨‍💻 Auteur
 
-Visualiser et manipuler les données via une interface React moderne
-
-Maintenir une structure claire côté backend et frontend
-
-👨‍💻 Auteur
-
-Moukit Adam
-🧩 Développeur Fullstack Java & React
+- Moukit Adam
+- 🧩 Développeur Fullstack Java & React
